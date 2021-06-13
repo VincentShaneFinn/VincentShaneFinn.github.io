@@ -58,6 +58,45 @@
             text-align: center;
             font-size: 14pt;
         }
+
+        .padded {
+            padding: 1rem;
+        }
+
+        .margin {
+            margin: 1rem;
+        }
+
+        .border-header {
+            border-bottom: 3px solid #DDFFE7;
+        }
+
+        .card-header {
+            font-size: 16pt;
+            border-bottom-color: #DDFFE7;
+        }
+
+        .rank-5 {
+            font-weight: bold;
+            font-size: 14pt;
+        }
+
+        .rank-4 {
+            font-weight: bold;
+            font-size: 13pt;
+        }
+
+        .rank-3 {
+            font-size: 12pt;
+        }
+
+        .void-header {
+            text-shadow: 2px 1px 2px black;
+        }
+
+        #skills .row > div {
+            margin-bottom: 1rem;
+        }
     </style>
 </head>
 <body class="bg-teal">
@@ -113,17 +152,17 @@
         </div>
 
         <div class="container">
-            <section class="bg-dark color-mint shadow rounded" style="padding: 1rem; margin: 1rem">
+            <section class="bg-dark color-mint shadow rounded padded margin">
 
                 <div class="row">
-                    <div class="col-sm-3">
+                    <div class="col-md-3">
                         <div class="w-100 h-100 d-flex justify-content-center align-items-center">
                             <div style="width: 75%">
                                 <img src="assets/Finn-photo.jpg" class="card-img" />
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-9">
+                    <div class="col-md-9">
                         <h3 style="margin-top: 10px">About Vince</h3>
                         <p>
                             I have always enjoyed building things and figuring out problems. As a kid, Legos were my favorite hobby, and math was my favorite subject.
@@ -167,6 +206,59 @@
                     </div>
                 </div>
 
+            </section>
+
+            <section id="skills" class="margin">
+                <h1 class="color-mint padded text-center void-header"><span class="border-header">Skills</span></h1>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card text-center bg-dark color-mint">
+                            <div class="card-header">
+                                <b>Proficient</b>
+                            </div>
+                            <div class="card-body">
+                                <div>Test Driven Development</div>
+                                <div>C#</div>
+                                <div>ASP.NET MVC</div>
+                                <div>Visual Studio</div>
+                                <div>GitHub and GitLab</div>
+                                <div>Javascript + Typescript</div>
+                                <div>SASS</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-center bg-dark color-mint">
+                            <div class="card-header">
+                                Experienced
+                            </div>
+                            <div class="card-body">
+                                <div>Clean Architecture</div>
+                                <div>Java</div>
+                                <div>Eclipse</div>
+                                <div>Vue.js</div>
+                                <div>Unity Game Engine</div>
+                                <div>Swift</div>
+                                <div>XCode</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card text-center bg-dark color-mint">
+                            <div class="card-header">
+                                Familiar / Learning
+                            </div>
+                            <div class="card-body">
+                                <div>SQL</div>
+                                <div>Command Line</div>
+                                <div>C++</div>
+                                <div>Kotlin</div>
+                                <div>Android Studio</div>
+                                <div>Unreal Game Engine</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
         </div>
 
