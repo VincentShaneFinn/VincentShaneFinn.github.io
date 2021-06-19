@@ -103,6 +103,14 @@
             margin: auto;
             justify-content: center
         }
+
+        hr {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+            border: 0;
+            border-top: 2px solid rgb(221, 255, 231);
+            opacity: .75;
+        }
     </style>
 </head>
 <body class="bg-teal">
@@ -267,93 +275,210 @@
                     </div>
                 </div>
             </section>
+        </div>
 
-            <div class="container">
-                <h1 class="color-mint padded text-center void-header"><span class="border-header">Projects</span></h1>
+        <div class="container">
+            <h1 class="color-mint padded text-center void-header"><span class="border-header">Projects</span></h1>
 
-                <section class="bg-dark color-mint shadow rounded padded margin">
-                    <div class="row">
-                        <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
-                            <div class="text-center">
-                                <img class="w-100" src="assets/logo_finisher.png" />
-                            </div>
+            <section class="bg-dark color-mint shadow rounded padded margin">
+                <p>
+                    <b>Disclaimer: </b> I was fortunate that I took a Test Driven Development and Xtreme Programming class in my very last quarter at Drexel.
+                    Before this, I still enjoyed thinking about how to keep the architecture of my programs clean and maintainable after taking a class on Design Patterns.
+                    Drexel had not mentioned TDD before this I took the TDD class, so I was not familiar with this approach until then, and I immidiately fell in love.
+                    My professor was Boris Valerstein, who is working with drexel to make TDD a required course in the Drexel Curriculum. I keep in touch with him from time to time
+                    because he was so influential in my passion towards TDD.
+                </p>
+
+                <p>
+                    Here is the <a class="text-light" href="./assets/Boris Reference Letter.pdf" target="_blank">recommendation letter</a>
+                    Boris generously wrote for me.
+                </p>
+            </section>
+
+            <section class="bg-dark color-mint shadow rounded padded margin">
+                <div class="row">
+                    <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                        <div class="text-center">
+                            <img class="w-100" src="assets/OMS_Logo.png" />
                         </div>
-                        <div class="col-md-9">
-                            <h3>Finisher</h3>
-                            <p>
-                                Finisher is an ambitious third person action game with a unique mechanic called the "Finisher System".
-                                This system lets you grapple an enemy, and perform different skills that obliterate your enemies while executing the grabbed enemy in a spectacular fashion.
-                                Cut your enemy in half to execute them, and then you have the choice of different "Finishers" from a close range explosion,
-                                to transforming your sword into dual daggers that deal elemental damage.
-                            </p>
-                            <p>Download the demo at our website <a href="https://finishergmap.wordpress.com/">https://finishergmap.wordpress.com/</a></p>
-                        </div>
-
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Overcoming MS</h3>
+                        <p>
+                            The OMS app strives to simplify the process by tracking, analyzing, educating, and building social networks for all those affected by Multiple Sclerosis.
+                            By utilizing intelligent notifications and a simple data entry process,
+                            the OMS app creates a frictionless application that will serve as a daily companion to those suffering from MS.
+                        </p>
+                        <p>
+                            Our team won first place in the
+                            <a class="text-light" href="https://drexel.edu/cci/stories/multiple-sclerosis-patient-app-takes-top-prize-at-ccis-senior-design-project-competition/" target="_blank">
+                                Drexel 2019 CCI Senior Design Project Competition
+                            </a>
+                            <br />
+                            Checkout out our
+                            <a class="text-light" href="https://drive.google.com/file/d/1SrN7WEMq9ObQypwwPZi3ZD4TErqoVAN0/view?usp=sharing" target="_blank">keynote presentation</a>, or in a
+                            <a class="text-light" href="https://drive.google.com/file/d/1lcfimNqe1E6sOjMQP9WiuS34hyeBOyUR/view?usp=sharing" target="_blank">pdf version</a>
+                        </p>
                     </div>
 
-                    <br />
+                </div>
 
-                    <div class="row card-row">
-                        <div class="col-lg-4">
-                            <div class="card bg-mint shadow">
-                                <div class="card-header text-center bg-teal-green">
-                                    My Role
-                                </div>
-                                <img class="card-img-top" src="./assets/finisher workshop 1 team.JPG">
-                                <div class="card-body text-dark">
-                                    <p>
-                                        I was the Lead Programmer and Software Architect on the project,
-                                        leading several developers and working with game design students to implement this ambitious student project.
-                                    </p>
-                                </div>
+                <hr />
+
+                <div class="row card-row">
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                The Team
                             </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card bg-mint shadow">
-                                <div class="card-header text-center bg-teal-green">
-                                    Enemy AI
-                                </div>
-                                <img class="card-img-top" src="https://lh3.googleusercontent.com/2629KD3YPQsB-Og74eRiR6jToqU3ent5_TU8FpRWdt6BsqQIVpq00OinJy9XxkLCJz0MX2C-EuI_LcLkzlTISIcRWCcBjOov9w7MBSX8CalIevCIaFcwKj6VA3drHYfUMCdFKuEZ">
-
-                                <div class="card-body text-dark">
-                                    <p>
-                                        I implemented both individual and group enemy AI behaviors.
-                                        Everything from combat state machines,
-                                        to a group director that made groups challenging but fair to deal with.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card bg-mint shadow">
-                                <div class="card-header text-center bg-teal-green">
-                                    Finisher System
-                                </div>
-                                <img class="card-img-top" src="./assets/finisher-system.gif" />
-                                <div class="card-body text-dark">
-                                    <p>
-                                        Implemented the game directors vision over several iterations.
-                                        The final version being a strategy pattern made it easy to implement different finisher abilities that could be chosen after executing an enemy.
-                                    </p>
-                                </div>
+                            <img class="card-img-top" src="./assets/oms team.JPG">
+                            <div class="card-body text-dark">
+                                <p>
+                                    Our team was comprised of researchers who identified the problems we wanted to solve,
+                                    UI/UX designers who made wireframes and mockups and specified requirements,
+                                    fellow software developer who implemented an iOS mobile app. We also consulted with a member from the Overcoming MS organization, Alex Twersky.
+                                    My role was a Co-Lead Software Developer, handling much of the code implementation and software architecture.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                    <br />
-
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <div class="ratio ratio-16x9" style="margin: auto; max-width: 700px">
-                                <iframe src="https://www.youtube.com/embed/NHSKFeVDnFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                CRUD and MVC
+                            </div>
+                            <img class="card-img-top" src="./assets/oms mvc.png" />
+                            <div class="card-body text-dark">
+                                <p>
+                                    We needed a client side database to work with as the app required a lot of persistent state.
+                                    We used the realm framework to achieve this, as well as wrapping it in a CRUD (Create, Read, Update, Delete) interface.
+                                    We combined this interface with an MVC architecture to separate the concerns of the data models from the views, mediated by controllers.
+                                </p>
                             </div>
                         </div>
                     </div>
 
-                </section>
-            </div>
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                The View Stack And Reusable Views
+                            </div>
+                            <img class="card-img-top" src="./assets/sliding views.gif">
+
+                            <div class="card-body text-dark">
+                                <p>
+                                    We had many screens that had views side from left to right or vice versa based on user actions.
+                                    This abstractly works like a stack of plates, you can lay one on top of another, and always remove the top plate,
+                                    or remove all but the first to restart, with slick animations transitioning between movements.
+                                    Many of these views inherited from a base view to reduce duplication in the open and close functions.
+                                </p>
+                                <a class="btn btn-primary" href="https://docs.google.com/document/d/1gxnUuElBaNe6lRwHml3ppif6mWUP6LVh8AltMNjGt60/edit#heading=h.ck8y99tb0594" target="_blank">
+                                    Design Doc
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!--<a class="btn btn-primary" href="https://drive.google.com/file/d/19DDhvTYEd1puLQxu_taYBd7Odh0uESBW/view?usp=sharing" target="_blank">See our onboarding video</a>-->
+                        <h2>Demo Video</h2>
+                        <div class="ratio ratio-16x9" style="margin: auto; max-width: 700px">
+                            <video width="320" height="240" poster="./assets/oms thumbnail.jpg" controls>
+                                <source src="./assets/Tutorial_Video_720p.mov" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="bg-dark color-mint shadow rounded padded margin">
+                <div class="row">
+                    <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                        <div class="text-center">
+                            <img class="w-100" src="assets/logo_finisher.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Finisher</h3>
+                        <p>
+                            Finisher is an ambitious third person action game with a unique mechanic called the "Finisher System".
+                            This system lets you grapple an enemy, and perform different skills that obliterate your enemies while executing the grabbed enemy in a spectacular fashion.
+                            Cut your enemy in half to execute them, and then you have the choice of different "Finishers" from a close range explosion,
+                            to transforming your sword into dual daggers that deal elemental damage.
+                        </p>
+                        <p>Download the demo at our website <a class="text-light" href="https://finishergmap.wordpress.com/">https://finishergmap.wordpress.com/</a></p>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <div class="row card-row">
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                My Role
+                            </div>
+                            <img class="card-img-top" src="./assets/finisher workshop 1 team.JPG">
+                            <div class="card-body text-dark">
+                                <p>
+                                    I was the Lead Programmer and Software Architect on the project,
+                                    leading several developers and working with game design students to implement this ambitious student project.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                Enemy AI
+                            </div>
+                            <img class="card-img-top" src="https://lh3.googleusercontent.com/2629KD3YPQsB-Og74eRiR6jToqU3ent5_TU8FpRWdt6BsqQIVpq00OinJy9XxkLCJz0MX2C-EuI_LcLkzlTISIcRWCcBjOov9w7MBSX8CalIevCIaFcwKj6VA3drHYfUMCdFKuEZ">
+
+                            <div class="card-body text-dark">
+                                <p>
+                                    I implemented both individual and group enemy AI behaviors.
+                                    Everything from combat state machines,
+                                    to a group director that made groups challenging but fair to deal with.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                Finisher System
+                            </div>
+                            <img class="card-img-top" src="./assets/finisher-system.gif" />
+                            <div class="card-body text-dark">
+                                <p>
+                                    Implemented the game directors vision over several iterations.
+                                    The final version being a strategy pattern made it easy to implement different finisher abilities that could be chosen after executing an enemy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="ratio ratio-16x9" style="margin: auto; max-width: 700px">
+                            <iframe src="https://www.youtube.com/embed/NHSKFeVDnFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
         </div>
 
     </main>
