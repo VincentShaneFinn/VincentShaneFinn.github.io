@@ -94,7 +94,7 @@
             text-shadow: 2px 1px 2px black;
         }
 
-        #skills .row > div {
+        .card-row.row > div {
             margin-bottom: 1rem;
         }
 
@@ -216,7 +216,7 @@
 
             <section id="skills" class="margin padded">
                 <h1 class="color-mint padded text-center void-header"><span class="border-header">Skills</span></h1>
-                <div class="row">
+                <div class="row card-row">
                     <div class="col-lg-4">
                         <div class="card text-center bg-dark color-mint shadow">
                             <div class="card-header">
@@ -255,6 +255,7 @@
                                 Familiar / Learning
                             </div>
                             <div class="card-body">
+                                <div>SpecFlow / Cucumber (BDD)</div>
                                 <div>SQL</div>
                                 <div>Command Line</div>
                                 <div>C++</div>
@@ -266,6 +267,93 @@
                     </div>
                 </div>
             </section>
+
+            <div class="container">
+                <h1 class="color-mint padded text-center void-header"><span class="border-header">Projects</span></h1>
+
+                <section class="bg-dark color-mint shadow rounded padded margin">
+                    <div class="row">
+                        <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                            <div class="text-center">
+                                <img class="w-100" src="assets/logo_finisher.png" />
+                            </div>
+                        </div>
+                        <div class="col-md-9">
+                            <h3>Finisher</h3>
+                            <p>
+                                Finisher is an ambitious third person action game with a unique mechanic called the "Finisher System".
+                                This system lets you grapple an enemy, and perform different skills that obliterate your enemies while executing the grabbed enemy in a spectacular fashion.
+                                Cut your enemy in half to execute them, and then you have the choice of different "Finishers" from a close range explosion,
+                                to transforming your sword into dual daggers that deal elemental damage.
+                            </p>
+                            <p>Download the demo at our website <a href="https://finishergmap.wordpress.com/">https://finishergmap.wordpress.com/</a></p>
+                        </div>
+
+                    </div>
+
+                    <br />
+
+                    <div class="row card-row">
+                        <div class="col-lg-4">
+                            <div class="card bg-mint shadow">
+                                <div class="card-header text-center bg-teal-green">
+                                    My Role
+                                </div>
+                                <img class="card-img-top" src="./assets/finisher workshop 1 team.JPG">
+                                <div class="card-body text-dark">
+                                    <p>
+                                        I was the Lead Programmer and Software Architect on the project,
+                                        leading several developers and working with game design students to implement this ambitious student project.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card bg-mint shadow">
+                                <div class="card-header text-center bg-teal-green">
+                                    Enemy AI
+                                </div>
+                                <img class="card-img-top" src="https://lh3.googleusercontent.com/2629KD3YPQsB-Og74eRiR6jToqU3ent5_TU8FpRWdt6BsqQIVpq00OinJy9XxkLCJz0MX2C-EuI_LcLkzlTISIcRWCcBjOov9w7MBSX8CalIevCIaFcwKj6VA3drHYfUMCdFKuEZ">
+
+                                <div class="card-body text-dark">
+                                    <p>
+                                        I implemented both individual and group enemy AI behaviors.
+                                        Everything from combat state machines,
+                                        to a group director that made groups challenging but fair to deal with.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <div class="card bg-mint shadow">
+                                <div class="card-header text-center bg-teal-green">
+                                    Finisher System
+                                </div>
+                                <img class="card-img-top" src="./assets/finisher-system.gif" />
+                                <div class="card-body text-dark">
+                                    <p>
+                                        Implemented the game directors vision over several iterations.
+                                        The final version being a strategy pattern made it easy to implement different finisher abilities that could be chosen after executing an enemy.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br />
+
+                    <div class="row">
+                        <div class="col-12 text-center">
+                            <div class="ratio ratio-16x9" style="margin: auto; max-width: 700px">
+                                <iframe src="https://www.youtube.com/embed/NHSKFeVDnFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+            </div>
         </div>
 
     </main>
