@@ -99,7 +99,7 @@
         }
 
         #skills .row .card {
-            width: 90%;
+            width: 100%;
             margin: auto;
             justify-content: center
         }
@@ -224,8 +224,10 @@
 
             </section>
 
-            <section id="skills" class="margin padded">
-                <h1 class="color-mint padded text-center void-header"><span class="border-header">Skills</span></h1>
+            <section id="skills" class="margin">
+                <br />
+                <h1 class="color-mint text-center void-header"><span class="border-header">Skills</span></h1>
+                <br />
                 <div class="row card-row">
                     <div class="col-lg-4">
                         <div class="card text-center bg-dark color-mint shadow">
@@ -295,6 +297,131 @@
                     Here is the <a class="text-light" href="./assets/Boris Reference Letter.pdf" target="_blank">recommendation letter</a>
                     Boris generously wrote for me.
                 </p>
+            </section>
+
+            <section class="bg-dark color-mint shadow rounded padded margin">
+                <div class="row">
+                    <div class="col-md-3 d-flex flex-column align-items-center justify-content-center">
+                        <div class="text-center">
+                            <img class="w-100" src="assets/Imalogix_logo_white.png" />
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <h3>Imalogix</h3>
+                        <p>
+                            At Imalogix is a analytical reporting tool for radiology technicians in hospitals.
+                            The company provides a cloud based solution and web application for customers to monitor patient radiation dose.
+                            Other features of the product include managing user accounts and privileges,
+                            parsing data from a variety of scanner DICOM files, and utilizing artificial intelligence to provide reports that help improve technicians behaviors.
+                        </p>
+                        <p>see public website here <a href="https://imalogix.com/" class="text-light" target="_blank">https://imalogix.com/</a></p>
+                    </div>
+
+                </div>
+
+                <hr />
+
+                <div class="row card-row">
+                    <div class="col-lg-12">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                Leading Innovation
+                            </div>
+                            <div class="card-body text-dark">
+                                <div class="row">
+                                    <div class="col-lg-5 text-center">
+                                        <img class="h-100" src="./assets/worklist.png" style="width: 90%">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>
+                                            I had the initiative to take a half completed mobile app,
+                                            convert it to a functional solution with ASP.NET Web Forms,
+                                            then finally rewrite it as a fully operational ASP.NET MVC web application that was built using Test Driven Development and Clean Architecture.
+                                            This app is now the main web application for all customers of Imalogix.
+                                            Since this project's inception, I have been the most senior developer in charge of leading it,
+                                            as there was no other full time employee that ever worked with this codebase,
+                                            except 2 other previous Drexel coops hired along side me.
+                                            Additionally, as this is a small company, I have had the privilege to gain the respect of the CEO John Heil, discussing stories and ideas with him on a regular basis.
+                                            Throughout my time at Imalogix, he has encouraged me to do what I think is right, and allowed me to make the best product I can for Imalogix.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                Gaining Experience
+                            </div>
+                            <div class="card-body text-dark">
+                                <div class="row">
+                                    <div class="col-lg-5 text-center">
+                                        <img class="h-100" src="./assets/tests-and-solution.png" style="width: 75%">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>
+                                            I have had the great opportunity of gaining experience in so many areas of software development.
+                                            I discoverd ASP.NET MVC on my own, and was able to exercise my newly acquired love for Test Driven Development every day since I was hired in 2019.
+                                            I learned about Clean Architecture to organize the codebase, and setup the Autofac Dependency Injection framework to facilitate inversion of control.
+                                            I found the Dapper ORM to make data services communicate with sql easier,
+                                            worked with a consultant to implement Single Sign On,
+                                            and wrote deployment batch scripts that pull down and deploy our project from git to the production server.
+                                            I have also recently setup our project to use node and webpack to allow for Typescript development and testing, along with starting to work with vue.js.
+                                            I also frequently practice pair programming with fellow developers and am even responsible for Interviewing Drexel Coop Candidates.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12">
+                        <div class="card bg-mint shadow">
+                            <div class="card-header text-center bg-teal-green">
+                                A Challenging Problem
+                            </div>
+
+                            <div class="card-body text-dark">
+                                <div class="row">
+                                    <div class="col-lg-5 text-center">
+                                        <img class="h-100" src="./assets/parse_phrase.gif" style="width: 100%">
+                                    </div>
+                                    <div class="col-lg-7">
+                                        <p>
+                                            Imalogix receives exams for CT scanners,
+                                            and the technician has to enter 3 phrases to provide details about the intent of that scan.
+                                            This unique combination of phrases, needs to somehow be mapped to a standard protocol (i.e Its a Head Neck With IV Contrast),
+                                            so that we can group hundreds of exams together under a limited set of items that you can set thresholds for to alert when those exams exceed some amount of radiation.
+                                            I designed and wrote a program that parses these phrases for Keywords,
+                                            and working with a Machine Learning developer,
+                                            provide recommendations for an Imalogix Employee to more easily map these "Triplets" to protocols.
+                                            This is accomplished using a programmatic thesaurus of synonyms mapped to keywords,
+                                            and several other creative solutions that are still being improved today.
+                                            The end goal is to have some amount of these triplets be automatically mapped by AI, and as of writing this, approximately 10-20% of them already are.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr />
+
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <!--<a class="btn btn-primary" href="https://drive.google.com/file/d/19DDhvTYEd1puLQxu_taYBd7Odh0uESBW/view?usp=sharing" target="_blank">See our onboarding video</a>-->
+                        <h2>Marketing Worklist Page Demo</h2>
+                        <div class="ratio ratio-16x9" style="margin: auto; max-width: 700px">
+                            <video width="320" height="240" poster="https://imalogix.com/wp-content/uploads/2020/06/thumbnail-worklist.png" controls>
+                                <source src="https://imalogix.com/wp-content/uploads/2020/04/review_and_manage_dose_outliers_fluroscopy-With-voice.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+
             </section>
 
             <section class="bg-dark color-mint shadow rounded padded margin">
